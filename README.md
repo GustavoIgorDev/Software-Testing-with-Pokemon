@@ -11,23 +11,23 @@ Vamos falar dos tipos de testes como se fossem técnicas de treinamento para seu
 
 **Caixa Branca (White Box):** Aqui viramos algo como um professor Pokémon – analisamos o código diretamente pra ver se tá tudo certo, como se estivessemos estudando o DNA de um Pokémon novo. (Feito pelo Dev, mas as vezes pelo QA também)
 
-*(Sim, tem a Caixa Cinza também, que é tipo um Ditto – junta os dois!)*
+(Sim, tem a Caixa Cinza também, que é tipo um Ditto, junta os dois)
 
 ## 🎮 Os Tipos de Testes (e Quem É o Treinador Responsável)
 
-### 1️⃣ Testes Unitários – O Treino Básico no Laboratório do Professor, quando enfrentamos Blue pela primeira vez!
+### 1️⃣ Testes Unitários – O treino básico no laboratório do Professor, quando enfrentamos Blue pela primeira vez!
 **O que é?** Treinar um Pokémon de cada vez, ou seja, testar cada função do código separadamente.
 
 **Tipo:** Caixa Branca (o Dev é o cientista que conhece todos os IVs).
 
 **Quem faz?** Dev (usando ferramentas como JUnit e pytest).
 
-### 2️⃣ Testes Funcionais – A Batalha no Ginásio Pokémon
+### 2️⃣ Testes Funcionais – A batalha no ginásio Pokémon
 **O que é?** Ver se o sistema faz o que prometeu, tipo quando você ensina um golpe novo ao seu Charizard e testa logo em seguida para ver se funciona exatamente como na descrição!
 
 **Tipo:** Caixa Preta (o QA não precisa saber como o ataque é programado).
 
-**Quem faz?** QA (com ataques especiais como Selenium e Cypres ou até mesmo manualmente                                    ).
+**Quem faz?** QA (com ataques especiais como Selenium e Cypress ou até mesmo manualmente).
 
 ### 3️⃣ Testes de Integração – A Equipe Rocket trabalhando em conjunto!
 **O que é?** Será que o Meowth (front-end), Jessie (back-end) e James (banco de dados) conseguem fazer algo direito juntos? Ou seja, é basicamente quando testamos se o conjunto da obra funciona com tudo conectado.
@@ -36,14 +36,14 @@ Vamos falar dos tipos de testes como se fossem técnicas de treinamento para seu
 
 **Quem faz?** Dev ou QA (usando Postman por exemplo).
 
-### 4️⃣ Testes Regressivos – O Zubat que Aparece em Toda Caverna
-**O que é?** Sabe aquele bug chato que sempre volta depois de uma atualizaçã? Testes regressivos servem basicamente para retestar tudo que já foi testado antes, isso após uma nova atualização no sistema. Mas por quê? Para garantir que a atualização não fez bugs antigos retornarem ou novos surgirem.
+### 4️⃣ Testes Regressivos – O Zubat que aparece direto nas cavernas
+**O que é?** Sabe aquele bug chato que sempre volta depois de uma atualização? Testes regressivos servem basicamente para retestar tudo que já foi testado antes, isso após uma nova atualização no sistema. Mas por quê? Para garantir que a atualização não fez bugs antigos retornarem ou novos surgirem.
 
 **Tipo:** Caixa Preta (o QA usa automação como um Repelente Supremo).
 
 **Quem faz?** QA (porque alguém tem que lidar com esses bugs malditos).
 
-### 5️⃣ Testes Exploratórios – Explorando a Caverna de Diglett Sem Mapa
+### 5️⃣ Testes Exploratórios – Explorando a Caverna Diglett sem mapa
 **O que é?** É tipo entrar no Safari Zone pela primeira vez – explorar o sistema sem script pra achar bugs, geralmente usado quando um sistema já foi implementado sem ser testado antes ou não tem documentação de testes!
 
 **Tipo:** Caixa Preta (QA literalmente sai na sua jornada Pokémon atrás de bugs).
@@ -57,7 +57,7 @@ Vamos falar dos tipos de testes como se fossem técnicas de treinamento para seu
 
 **Quem faz?** UX/QA.
 
-### 7️⃣ Testes de Stress/Carga – A Batalha Contra 100 Magikarps
+### 7️⃣ Testes de Stress/Carga – A batalha contra 100 Magikarps
 **O que é?** Jogar 1000 treinadores contra um servidor pra ver se ele vence a batalha ou não, é basicamente testar os limites do sistema o estressando com uma quantidade bem maior de usuários que a comum.
 
 **Tipo:** Caixa Preta (testamos por fora).
@@ -95,53 +95,53 @@ Let's talk about testing types as if they were training techniques to make your 
 
 **White Box:** Here we become like a Pokémon professor - we analyze the code directly to check if everything's correct, like studying a new Pokémon's DNA. (Done by Dev, but sometimes by QA too)
 
-*(Yes, there's also Gray Box, which is like a Ditto - combines both!)*
+(Yes, there's also Gray Box, which is like a Ditto, combines both!)
 
 ## 🎮 The Testing Types (and Who's the Responsible Trainer)
 
-### 1️⃣ Unit Tests - The Basic Training at the Professor's Lab (when we first battle Blue!)
+### 1️⃣ Unit Tests - The basic training at the Professor's Lab, when we first battle Blue!
 **What is it?** Training one Pokémon at a time - testing each code function separately.
 
 **Type:** White Box (the Dev is the scientist who knows all the IVs).
 
 **Who does it?** Dev (using tools like JUnit and pytest).
 
-### 2️⃣ Functional Tests - The Gym Battle
+### 2️⃣ Functional Tests - The gym battle
 **What is it?** Verifying if the system does what it promises, like when you teach a new move to your Charizard and immediately test if it works exactly as described!
 
 **Type:** Black Box (QA doesn't need to know how the attack is programmed).
 
 **Who does it?** QA (with special attacks like Selenium and Cypress, or even manually).
 
-### 3️⃣ Integration Tests - Team Rocket Working Together!
+### 3️⃣ Integration Tests - Team Rocket working together!
 **What is it?** Checking if Meowth (front-end), Jessie (back-end), and James (database) can actually work together properly. Basically testing if everything works when connected.
 
 **Type:** Gray Box (half dev, half QA).
 
 **Who does it?** Dev or QA (using Postman for example).
 
-### 4️⃣ Regression Tests - The Zubat That Appears in Every Cave
+### 4️⃣ Regression Tests - The Zubat that appears in every cave
 **What is it?** You know that annoying bug that always comes back after an update? Regression tests retest everything that was tested before after system updates. Why? To ensure updates don't bring back old bugs or create new ones.
 
 **Type:** Black Box (QA uses automation like a Super Repel).
 
 **Who does it?** QA (because someone has to deal with those darn bugs).
 
-### 5️⃣ Exploratory Tests - Exploring Diglett Cave Without a Map
+### 5️⃣ Exploratory Tests - Exploring Diglett cave without a map
 **What is it?** It's like entering the Safari Zone for the first time - exploring the system without scripts to find bugs, usually used when a system was implemented without prior testing or lacks test documentation!
 
 **Type:** Black Box (QA literally embarks on a Pokémon journey hunting bugs).
 
 **Who does it?** QA (needing investigation skills like Detective Pikachu).
 
-### 6️⃣ Usability Tests - The Pokémon Center PC Everyone Can Use
+### 6️⃣ Usability Tests - The Pokémon center PC everyone can use
 **What is it?** Ensuring the system is as intuitive as the Pokémon PC system.
 
 **Type:** Black Box (focus on the player/user).
 
 **Who does it?** UX/QA.
 
-### 7️⃣ Stress/Load Tests - The Battle Against 100 Magikarps
+### 7️⃣ Stress/Load Tests - The battle against 100 Magikarps
 **What is it?** Throwing 1000 trainers at a server to see if it can handle the battle - basically testing system limits by stressing it with way more users than normal.
 
 **Type:** Black Box (we test from the outside).
